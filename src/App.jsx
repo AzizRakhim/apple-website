@@ -11,6 +11,7 @@ import * as Sentry from "@sentry/react";
 const App = () => {
   return (
     <main className="bg-black">
+      <button onClick={() => nonExistingFunc()}>Break the world</button>
       <Navbar />
       <Hero />
       <Highlights />
